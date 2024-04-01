@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Lightinity"
+		]
+	},
+	"header": {
+		"name": "BakaUI BP",
+		"description": "An addon for BakaCraft",
+		"min_engine_version": [
+			1,
+			20,
+			70
+		],
+		"uuid": "946dc1fe-99db-40db-8cd4-33c1b4fc4c05",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "a9b42e73-2fdd-413a-824c-d7a5d3257bc1",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "17f5b8d6-461c-4f79-b138-b3eebdc72590",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

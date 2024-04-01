@@ -1,0 +1,23 @@
+{
+	"format_version": "1.19.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "candra:ticket_clan",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§d§oTicket Clan"
+			},
+			"minecraft:icon": {
+				"texture": "paper"
+			},
+			"minecraft:hover_text_color": "light_purple",
+			"minecraft:foil": true,
+			"minecraft:use_duration": 20,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:max_stack_size": 1
+		},
+		"events": {}
+	}
+}
